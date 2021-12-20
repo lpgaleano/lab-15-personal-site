@@ -7,10 +7,10 @@ body, html {
     font-weight: 200;
     color: white;
 }
-body.index-color{background-color:black;}
-body.contact-color{background-color:black;}
-body.aboutme-color{background-color:black;}
-body.myportfolio-color{background-color:black;}
+body.index-color{background-color: #000000;}
+body.contact-color{background-color: #000000;}
+body.aboutme-color{background-color: #000000;}
+body.myportfolio-color{background-color: #000000;}
 /* use Major Mono Display for all headings h1—h6 */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Oswald', monospace;
@@ -52,7 +52,7 @@ div.stuff {
 }
 
 div#first {
-  background-color: #black;
+  background-color: #B87E67;
 }
 
 div#second {
@@ -120,10 +120,6 @@ div#fifth {
 
 div.aboutme {
   position: fixed;
-  top: 250px;
-  left: 200px;
-  width: 900px;
-  height: 380px;
   font-family: 'Oswald', monospace;
   /* height: fit-content; */
   float: left;
@@ -139,7 +135,7 @@ div.aboutme {
   padding: 5px;
 }
 div.myportfolio {
-    position: right;
+    position: fixed;
     top: 550px;
     left: 500px;
     width: 470px;
